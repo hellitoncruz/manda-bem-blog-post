@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MandaBem | Amiga do seu negócio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- ------------------------------ -->
+
+    <link rel="shortcut icon" href="https://site.mandabem.com.br/wp-content/uploads/2023/06/favicon-1.png"
+        type="image/png">
+    <link rel="icon" href="https://site.mandabem.com.br/wp-content/uploads/2023/06/favicon-1.png" type="image/png">
+
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="https://site.mandabem.com.br/wp-content/uploads/2023/06/favicon-1.png">
+
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="https://site.mandabem.com.br/wp-content/uploads/2023/06/favicon-1.png">
+
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="https://site.mandabem.com.br/wp-content/uploads/2023/06/favicon-1.png">
+
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="https://site.mandabem.com.br/wp-content/uploads/2023/06/favicon-1.png">
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/e9445bb93e.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+    <!-- Custom JS -->
+    <script src="jquery.simple-text-rotator.min.js"></script>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="nav-content-first"></div>
+        <div class="container fixed-top" id="nav-container">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="https://site.mandabem.com.br/">
+                    <img id="logo-img-desk"
+                        src="https://site.mandabem.com.br/wp-content/uploads/2023/06/logo_manda_bem_200-2.png"
+                        width="140" height="65" alt="">
+                    <img id="logo-img-mob"
+                        src="https://site.mandabem.com.br/wp-content/uploads/2023/06/logo_manda_bem_200-2.png"
+                        width="65" height="30" alt="">
+                </a>
+
+                <button id="menu-icon" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                    <i class="bi bi-x"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://mandabem.com.br/simuladordefrete">SIMULE O FRETE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://mandabem.com.br/cadastro_v2">CADASTRE-SE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq-section">DÚVIDAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://site.mandabem.com.br/blog/">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://mandabem.com.br/login">LOGIN</a>
+                        </li>
+                        <li class="nav-item icon-item-menu">
+                            <a target="_blank" href="https://www.instagram.com/vocemandabem/"><span><i
+                                        class="fab fa-instagram fa-lg"></i></span></a>
+                        </li>
+                        <li class="nav-item icon-item-menu">
+                            <a target="_blank" href="https://www.facebook.com/vocemandabem"><span><i
+                                        class="fab fa-facebook-f fa-lg"></i></span></a>
+                        </li>
+                        <li class="nav-item icon-item-menu">
+                            <a target="_blank" href="https://www.tiktok.com/@vocemandabem"><span><i
+                                        class="fab fa-tiktok fa-lg"></i></span></a>
+                        </li>
+                        <li class="nav-item icon-item-menu">
+                            <a target="_blank" href="https://www.youtube.com/@Mandabem"><span><i
+                                        class="fab fa-youtube fa-lg"></i></span></a>
+                        </li>
+                        <li class="nav-item icon-item-menu">
+                            <a target="_blank" href="https://www.linkedin.com/company/mandabem/"><span><i
+                                        class="fab fa-linkedin-in fa-lg"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="mostrar initial-page">
+            <div class="hero-section">
+                <h1>Conheça cinco livros sobre empreendedorismo</h1>
+            </div>
+
+            <!-- SETA QUE DESCE -->
+            <div class="arrow arrow-down">
+                <a href="#first-section">
+                    <i class="bi bi-chevron-double-down"></i>
+                </a>
+            </div>
+            <div class="overlay">
+            </div>
+        </div>
+    </main>
+
+    <div class="content-container" id="first-section">
+
+        <div class="post-container">
+            <div class="entry-content clearfix ut-initialized">
+                <p>O mundo dos negócios está em constante evolução e <strong>para se manter à frente é essencial que o
+                        empreendedor esteja atualizado e bem informado.</strong> A escolha dos livros certos pode
+                    proporcionar insights valiosos e informações para o sucesso nos negócios.</p>
+                <p>Pensando nisso, preparamos uma seleção de cinco livros que irão ajudá-lo a aprofundar seus
+                    conhecimentos
+                    em áreas fundamentais. Confira nossas sugestões e esteja preparado para impulsionar seu negócio para
+                    o
+                    próximo nível.</p>
+                <h2>1 – Descubra Seus Pontos Fortes: Strengthsfinder 2.0</h2>
+                <p>Em vez de focar em corrigir fraquezas, por que não explorar e aprimorar ainda mais seus pontos
+                    fortes?
+                    “Descubra Seus Pontos Fortes: Strengthsfinder 2.0” é um livro que oferece uma <strong>abordagem
+                        inovadora para ajudar empreendedores a identificar e desenvolver seus cinco maiores
+                        talentos.</strong></p>
+                <p>Segundo o The Economic Times, este livro oferece lições fundamentais para empreendedores e gestores
+                    que
+                    buscam compreender os pontos fortes de suas equipes e transformá-los em vantagens significativas
+                    para
+                    suas organizações.</p>
+                <h2>2 – De Zero a Um</h2>
+                <p>Peter Thiel, conhecido como cofundador do PayPal e investidor em várias startups, compartilha em seu
+                    livro uma série de casos de sucesso que surgiram no coração do Vale do Silício. No entanto, sua
+                    abordagem não se baseia em oferecer fórmulas mágicas para o empreendedorismo. Ele reconhece que “o
+                    paradoxo de ensinar empreendedorismo é que a tal fórmula pode não existir”.</p>
+                <p>Thiel oferece uma <strong>perspectiva otimista sobre o futuro do progresso e uma abordagem inovadora
+                        para
+                        pensar sobre a inovação</strong>. Seu objetivo é capacitar empreendedores a fazer perguntas que
+                    possam revelar valor em lugares inesperados, incentivando uma mentalidade de exploração e descoberta
+                    no
+                    mundo dos negócios.</p>
+                <h2>&nbsp;3 – Marketing 5.0: tecnologia para a humanidade</h2>
+                <p>Philip Kotler, renomado como uma das maiores autoridades do marketing e reconhecido pelo The Wall
+                    Street
+                    Journal como um dos 10 pensadores mais influentes da área de negócios, possui um legado
+                    impressionante.
+                    Com mais de 50 obras publicadas, ele apresenta em “Marketing 5.0” a essencial ligação entre
+                    marketing e
+                    inovação.</p>
+                <p>No livro, Kotler destaca a<strong> importância de ser criativo e de abraçar o novo sem
+                        receios</strong>,
+                    fundamentais para alcançar o sucesso no mercado atual. Ele ressalta a necessidade de estar
+                    constantemente atento às mudanças de <a
+                        href="https://site.mandabem.com.br/o-que-o-cliente-quer-como-continuar-influenciando-o-consumidor-este-ano/">comportamento
+                        do cliente</a> e aos novos modelos de negócios como chave para manter-se competitivo em um
+                    cenário
+                    dinâmico e em constante evolução.</p>
+                <h2>4 – Empreendedorismo para subversivos</h2>
+                <p>“Empreendedorismo para Subversivos” apresenta as histórias reais e inspiradoras do empreendedor
+                    Facundo
+                    Guerra. Com base em suas experiências no mercado, o autor compartilha <strong>valiosas dicas para
+                        aqueles que desejam empreender, mas enfrentam inseguranças.</strong></p>
+                <p>Se você tem o sonho de iniciar seu próprio negócio, mas ainda não se sente completamente preparado
+                    para
+                    dar o primeiro passo, este livro pode ser uma fonte de orientação.</p>
+                <h2>5 – Startup enxuta</h2>
+                <p>No livro “Startup Enxuta”, de Eric Ries, é abordada a importância de adotar modelos experimentais no
+                    lançamento de um produto ou serviço no mercado. O autor destaca que, por meio de um <strong>processo
+                        contínuo de aprendizado e experimentação, é possível alcançar o sucesso empreendedor.</strong>
+                </p>
+                <p>Ries enfatiza ainda a necessidade de utilizar métricas e processos analíticos eficazes para entender
+                    as
+                    demandas dos clientes e aproveitar <a
+                        href="https://site.mandabem.com.br/conheca-as-tendencias-do-commerce-para-2024/">insights
+                        valiosos</a> para o desenvolvimento do negócio.</p>
+                <h2>&nbsp;Vamos dar o start?</h2>
+                <p>Mantenha em mente que quanto mais conhecimento adquirir, mais preparado estará para superar os
+                    desafios
+                    do mercado. Esperamos que esses livros para empreendedores possam auxiliá-lo na construção de uma
+                    carreira repleta de sucesso.</p>
+                <p>E se você pensa em enviar seus produtos para todo o Brasil, que tal ter uma intermediadora parceira?
+                    Com
+                    a Manda Bem, você fica livre de mensalidades, pagando apenas pelas entregas que gerar. Além disso,
+                    você
+                    garante <strong>fretes com até 80% de desconto!</strong> <a
+                        href="https://mandabem.com.br/simuladordefrete">Entre em contato</a> e descubra como podemos
+                    melhorar a logística do seu empreendimento.</p>
+                <span class="tags-links">
+                    <i class="fa fa-hashtag"></i><a href="https://site.mandabem.com.br/tag/dicas/" rel="tag">Dicas</a>,
+                    <a href="https://site.mandabem.com.br/tag/empreendedorismo/" rel="tag">empreendedorismo</a> </span>
+            </div>
+        </div>
+
+        <div class="side-bar">
+            <div class="banner-carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://site.mandabem.com.br/wp-content/uploads/2023/06/250x250_ALUGUEL_MANDABEM.jpg"
+                                        alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://site.mandabem.com.br/wp-content/uploads/2024/05/Tiny-banner-quadrado-Manda-Bem.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="back-container">
+                <a href="https://site.mandabem.com.br/blog/">VOLTAR PARA O BLOG</a>
+            </div>
+
+            <div class="search-container">
+                <h4>PESQUISAR</h4>
+                <form role="search" method="get" class="search-form" id="searchform" action="https://site.mandabem.com.br/">
+                    <input class="input-search-bar" type="search" name="" id="" placeholder="To search type and hit enter">
+                    <input class="input-submit-btn" type="submit"></input>
+                </form>
+                
+            </div>
+
+            <div class="menu">
+                <h4>MENU</h4>
+                <div class=" mx-auto mb-4">
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://mandabem.com.br/simuladordefrete">Simule o Frete</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://mandabem.com.br/cadastro_v2">Cadastre-se</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://site.mandabem.com.br/#section-duvidas">Dúvidas</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://site.mandabem.com.br/blog/">Blog</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://mandabem.com.br/login">Login</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="last-posts">
+
+                <h4>Últimas Postagens</h4>
+                <div class=" mx-auto mb-4">
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://site.mandabem.com.br/e-commerce-tudo-o-que-voce-precisa-saber-sobre-a-modalidade/">E-commerce:
+                            tudo o que você precisa saber sobre a modalidade</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://site.mandabem.com.br/conheca-cinco-livros-sobre-empreendedorismo/">Conheça
+                            cinco livros sobre empreendedorismo</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://site.mandabem.com.br/descubra-o-que-e-empreendedorismo-sustentavel-e-como-coloca-lo-em-pratica/">Descubra
+                            o que é empreendedorismo sustentável e como colocá-lo em prática</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://site.mandabem.com.br/empreendedorismo-digital-veja-como-comecar-na-area/">Empreendedorismo
+                            digital: veja como começar na área</a>
+                    </p>
+                    <p class="mb-0">
+                        <a class="link-txt" target="_blank" rel="noopener"
+                            href="https://site.mandabem.com.br/empreendedorismo-feminino-tudo-o-que-voce-precisa-saber-sobre/">Empreendedorismo
+                            feminino: tudo o que você precisa saber sobre</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+
+    <div class="whatsapp-container">
+        <a href="https://api.whatsapp.com/send/?phone=5521979227345&text=Ol%C3%A1%2C%0D%0Avim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+a+Manda+Bem.&type=phone_number&app_absent=0"
+            class="float" target="_blank">
+            <span class="txt-whats">WhatsApp</span> <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+
+        <!-- Section: Links  -->
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://mandabem.com.br/simuladordefrete">Simule o Frete</a>
+                        </p>
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://mandabem.com.br/cadastro_v2">Cadastre-se</a>
+                        </p>
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://site.mandabem.com.br/#section-duvidas">Dúvidas</a>
+                        </p>
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://site.mandabem.com.br/blog/">Blog</a>
+                        </p>
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://mandabem.com.br/login">Login</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://site.mandabem.com.br/politica-de-privacidade/">Política de Privacidade</a>
+                        </p>
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://site.mandabem.com.br/termos-de-uso/">Termos de Uso</a>
+                        </p>
+                        <p class="mb-0">
+                            <a class="link-txt" target="_blank" rel="noopener"
+                                href="https://site.mandabem.com.br/api/">API</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 social-icons">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">REDES SOCIAIS</h6>
+
+                        <a target="_blank" href="https://www.instagram.com/vocemandabem/"><span><i
+                                    class="fab fa-instagram fa-lg"></i></span></a>
+
+
+                        <a target="_blank" href="https://www.facebook.com/vocemandabem"><span><i
+                                    class="fab fa-facebook-f fa-lg"></i></span></a>
+
+
+                        <a target="_blank" href="https://www.tiktok.com/@vocemandabem"><span><i
+                                    class="fab fa-tiktok fa-lg"></i></span></a>
+
+
+                        <a target="_blank" href="https://www.youtube.com/@Mandabem"><span><i
+                                    class="fab fa-youtube fa-lg"></i></span></a>
+
+
+                        <a target="_blank" href="https://www.linkedin.com/company/mandabem/"><span><i
+                                    class="fab fa-linkedin-in fa-lg"></i></span></a>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a href="https://api.whatsapp.com/send/?phone=5521979227345&text=Ol%C3%A1%2C%0D%0Avim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+a+Manda+Bem.&type=phone_number&app_absent=0"
+                class="text-reset fw-bold" target="_blank">Helliton Cruz</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    
+    <div class="phrase">   
+      <p>A escolha dos livros certos pode proporcionar insights valiosos e informações para o sucesso nos negócios.</p>
+    </div>
+  
+  
+  
+
+    <!-- SCRIPTS -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/vivus@0.4.6/dist/vivus.min.js"></script>
+
+    <script>
+        // FUNÇÃO DE ANIMAÇÃO DE SVG
+        $(document).ready(function () {
+            new Vivus('ut-svg-667c7ca967417', {
+                type: 'delayed', // Use 'oneByOne' or 'delayed'
+                duration: 200,  // Animation duration (higher number for slower animation)
+                animTimingFunction: Vivus.EASE
+            });
+        });
+
+        // -----------------------------------------------------------------------------------
+
+        // FUNÇÃO DO MENU HAMBUGUER
+
+
+        $(document).ready(function () {
+            var $navbarNav = $('#navbarNav');
+            var $logoImgDesk = $('#logo-img-desk');
+            var $logoImgMob = $('#logo-img-mob');
+
+            var originalLogoSrc = "https://site.mandabem.com.br/wp-content/uploads/2023/06/logo_manda_bem_200-2.png";
+            var newLogoSrc = "https://site.mandabem.com.br/wp-content/uploads/2023/06/logo_manda_bem_200-2.png"; // Troque para a nova logo se for diferente
+
+            function toggleLogo() {
+                if ($navbarNav.hasClass('show')) {
+                    $logoImgDesk.attr('src', newLogoSrc);
+                    $logoImgMob.attr('src', newLogoSrc);
+                } else {
+                    $logoImgDesk.attr('src', originalLogoSrc);
+                    $logoImgMob.attr('src', originalLogoSrc);
+                }
+            }
+
+            $navbarNav.on('show.bs.collapse', toggleLogo);
+            $navbarNav.on('hide.bs.collapse', toggleLogo);
+        });
+
+
+
+        // -------------------------------------------k
+
+
+        // FUNÇÃO DO TITULO ANIMADO NO MAIN
+        $(".rotate").textrotator({
+            animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+            separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+            speed: 2000 // How many milliseconds until the next word show.
+        });
+
+        // -----------------------------------------------------------
+
+        // FUNÇÃO DO CARROSSEL DE INTEGRAÇÕES
+        $(document).ready(function () {
+            if ($('.brands_slider').length) {
+                var brandsSlider = $('.brands_slider');
+
+                brandsSlider.owlCarousel({
+                    loop: true,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    nav: false,
+                    dots: false,
+                    autoWidth: true
+                });
+
+                if ($('.brands_prev').length) {
+                    var prev = $('.brands_prev');
+                    prev.on('click', function () {
+                        brandsSlider.trigger('prev.owl.carousel');
+                    });
+                }
+
+                if ($('.brands_next').length) {
+                    var next = $('.brands_next');
+                    next.on('click', function () {
+                        brandsSlider.trigger('next.owl.carousel');
+                    });
+                }
+            }
+        });
+
+        // -----------------------------------------------------------
+
+
+
+        $(window).on('load', function () {
+            if ($('.partners_slider').length) {
+                var partnersSlider = $('.partners_slider');
+
+                var fixOwlCarousel = function () {
+                    stage = $('.owl-carousel');
+                    stage.width(stage.width() * 2);
+                }
+
+                partnersSlider.owlCarousel({
+                    loop: true,
+                    autoplay: true,
+                    autoplayTimeout: 7000,
+                    nav: false,
+                    dots: false,
+                    autoWidth: true,
+                    onInitialized: fixOwlCarousel,
+                    onRefreshed: fixOwlCarousel
+                })
+
+
+
+
+                if ($('.partners_prev').length) {
+                    var prev = $('.partners_prev');
+                    prev.on('click', function () {
+                        partnersSlider.trigger('prev.owl.carousel');
+                    });
+                }
+
+                if ($('.partners_next').length) {
+                    var next = $('.partners_next');
+                    next.on('click', function () {
+                        partnersSlider.trigger('next.owl.carousel');
+                    });
+                }
+
+            }
+        });
+
+        // -----------------------------------------------------------
+
+
+
+        // Função para verificar a posição de rolagem e ajustar a navbar 
+        $(document).ready(function () {
+            var onTop = false;
+            var scrollThresholdDesk = 380;
+            var scrollThresholdMob = 660;
+
+            function updateLogo(isOnTop, isMobile) {
+                let logoSelector = isMobile ? '#logo-img-mob' : '#logo-img-desk';
+                let newLogoSrc = isOnTop ?
+                    "https://site.mandabem.com.br/wp-content/uploads/2023/06/logo_manda_bem_white_200-2.png" :
+                    "https://site.mandabem.com.br/wp-content/uploads/2023/06/logo_manda_bem_200-2.png";
+
+                $(logoSelector).attr("src", newLogoSrc);
+                if (isMobile) {
+                    if (isOnTop) {
+                        $('#menu-icon').addClass('menu-icon-changed');
+                    } else {
+                        $('#menu-icon').removeClass('menu-icon-changed');
+                    }
+                }
+            }
+
+            function checkScrollPosition() {
+                let scrollPosition = $(window).scrollTop();
+                let windowWidth = $(window).width();
+                let scrollThreshold = windowWidth >= 768 ? scrollThresholdDesk : scrollThresholdMob;
+                let isMobile = windowWidth < 768;
+
+                if (scrollPosition < scrollThreshold && !onTop) {
+                    onTop = true;
+                    $('.navbar').addClass('onTop');
+                    updateLogo(true, isMobile);
+                } else if (scrollPosition >= scrollThreshold && onTop) {
+                    onTop = false;
+                    $('.navbar').removeClass('onTop');
+                    updateLogo(false, isMobile);
+                }
+            }
+
+            $(window).on('scroll', function () {
+                checkScrollPosition();
+            });
+
+            // Initial check on page load
+            checkScrollPosition();
+        });
+
+
+        // -----------------------------------------------------------
+
+        // Função de sroll que leva para o elemento da página
+        $('.arrow a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            var id = $(this).attr('href'),
+                targetOffset = $(id).offset().top;
+
+            $('html, body').animate({
+                scrollTop: targetOffset - 100
+            }, 500);
+        });
+
+        // -----------------------------------------------------------
+
+
+        // Função de contagem de números
+        $(document).ready(function () {
+            var data1 = $('#data1');
+            var data2 = $('#data2');
+            var data3 = $('#data3');
+            var data4 = $('#data4');
+
+            function increment(i, max, element) {
+                if (i > max) return;
+                setTimeout(function () {
+                    element.text(Math.round(i).toLocaleString('pt-BR'));
+                    increment(i + (max / 100), max, element);
+                }, 10);
+            }
+
+            increment(0, 70000, data1);
+            increment(0, 5570, data2);
+            increment(0, 5000000, data3);
+            increment(0, 500, data4);
+        });
+        // -----------------------------------------------------------
+
+
+        // FUNÇÃO CAROUSEL DE REVIEWS
+        $(document).ready(function () {
+            var currentIndex = 0;
+            var items = $('.carousel-item');
+            var paginationItems = $('.pagination-item');
+
+            function showItem(index) {
+                items.removeClass('active');
+                paginationItems.removeClass('active');
+                $(items[index]).addClass('active');
+                $(paginationItems[index]).addClass('active');
+            }
+
+            paginationItems.on('click', function () {
+                var index = $(this).data('index');
+                currentIndex = index;
+                showItem(currentIndex);
+            });
+
+            // Auto slide
+            function autoSlide() {
+                currentIndex++;
+                if (currentIndex >= items.length) {
+                    currentIndex = 0;
+                }
+                showItem(currentIndex);
+                setTimeout(autoSlide, 5000); // Change slide every 5 seconds
+            }
+
+            autoSlide();
+        });
+
+        // -----------------------------------------------------------
+
+
+        // Função do carregamento de componentes da página
+
+        $(window).on("load scroll", function () {
+            var threshold = 30; // porcentagem da altura visível do elemento que aparecer na tela para iniciar a animação
+            $(".mostrar").each(function () {
+                var el = $(this);
+                var eleHeight = el.outerHeight(); // altura da div
+                var eleTopo = el.offset().top; // distancia da div ao topo do documento
+                var scrlTopo = $(window).scrollTop(); // quanto foi rolada a janela
+                var distance = eleTopo - scrlTopo; // distancia da div ao topo da janela
+                var altJanela = window.innerHeight; // altura da janela
+                if (distance <= altJanela - (eleHeight / (threshold / 10))) {
+                    el.animate({ 'opacity': 1 }, 1200); // 1200 = 1,2 segundo da animação. Quanto menor, mais rápido
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            function checkScrollPosition() {
+                let scrollPosition = $(window).scrollTop();
+                let windowHeight = $(window).height();
+
+                $('.fade-in').each(function () {
+                    let elementOffset = $(this).offset().top;
+                    let windowBottom = scrollPosition + windowHeight;
+
+                    if (elementOffset < windowBottom) {
+                        $(this).addClass('show-component');
+
+
+                    }
+                });
+            }
+
+            $(window).on('scroll', function () {
+                checkScrollPosition();
+            });
+
+            // Initial check on page load
+            checkScrollPosition();
+        });
+
+
+
+        // ------------------------------------------
+
+        $(document).ready(function () {
+            $(".dropdown-toggle").dropdown();
+        });
+    </script>
+</body>
+
+</html>
